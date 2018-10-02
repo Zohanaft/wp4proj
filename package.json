@@ -1,0 +1,44 @@
+{
+  "name": "wp4",
+  "version": "1.0.0",
+  "description": "task",
+  "main": "src/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --mode development",
+    "dev": "webpack --mode development",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "token": "7585b7447f413a78f74ee5e73c853317b495c56c",
+    "type": "git",
+    "url": "git+https://github.com/Zohanaft/wp4proj.git"
+  },
+  "author": "Lazgen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zohanaft/wp4proj/issues"
+  },
+  "homepage": "https://github.com/Zohanaft/wp4proj#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "es6-promise": "^4.2.5",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "stylelint": "^9.6.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-selector-bem-pattern": "^2.0.0",
+    "stylelint-webpack-plugin": "^0.10.5",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {}
+}
